@@ -34,7 +34,7 @@ For basic authorization, the registry is accessible at _registry.twistlock.com_.
 ====
 Image names contain a version string.
 The version string must be formatted as X_Y_Z, where X is the major version, Y is the minor version, and Z is the patch number.
-For example, 19.07.363 should be formatted as 19_07_363.
+For example, 22.01.882 should be formatted as 22_01_882.
 For example:
 
 registry.twistlock.com/twistlock/defender:defender_19_07_363.
@@ -43,6 +43,8 @@ registry.twistlock.com/twistlock/defender:defender_19_07_363.
 *Prerequisites:*
 
 * You have your Prisma Cloud access token.
+The Prisma Cloud access token can be found at the following path in the console:
+Compute > Manage > System > Intelligence
 
 [.procedure]
 . Authenticate with the registry.
